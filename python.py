@@ -1,3 +1,4 @@
 #建立一個函式
-hi = input("請輸入")
-print("哈囉"+hi)
+yourname = input("請輸入你的名字")
+yourage = input("請輸入你的年紀")
+print("哈囉"+yourname+"你今年"+yourage+"歲")
