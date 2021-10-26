@@ -1,6 +1,3 @@
-print("小白")
-print("小黑")
-print("小藍")
-print("新版本測試")
-print("第二次")
-print("test")
+#建立一個函式
+hi = input("請輸入")
+print("哈囉"+hi)
