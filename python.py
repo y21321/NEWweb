@@ -1,4 +1,7 @@
-#建立一個函式
-yourname = input("請輸入你的名字")
-yourage = input("請輸入你的年紀")
-print("哈囉"+yourname+"你今年"+yourage+"歲")
+
+
+#list
+
+score2=[30,40,50]
+score2.append(2)
+print(score2)
