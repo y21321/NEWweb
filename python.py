@@ -1,7 +1,6 @@
+#字串練習
 
+def function(name,age):
+    print("hello"+name+"你今年"+age+"歲")
 
-#list
-
-score2=[30,40,50]
-score2.append(2)
-print(score2)
+function("小白","30")
