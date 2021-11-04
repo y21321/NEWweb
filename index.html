@@ -47,6 +47,14 @@
         margin: 0 auto;
         height: 100px;
       }
+      .logo {
+        display: inline-block;
+        clear: left;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 30px;
+      }
       ul li {
         float: left;
         display: flex;
@@ -66,11 +74,14 @@
         color: white;
       }
       .nav-link {
-        color: #3c3c3c;
+        color: white;
       }
-      .nav-link:hover{
-        color:white;
-        text-shadow:0.05em 0.05em  0.08em dimgray;
+      .nav-link:hover {
+        color: white;
+        text-shadow: 0.05em 0.05em 0.08em dimgray;
+      }
+      .col-md-4 {
+        padding-bottom: 20px;
       }
       .row {
         margin-top: 40px;
@@ -81,30 +92,64 @@
       .card-text {
         padding: 0px 15px 10px 15px;
       }
-      h2{
+      h2 {
         font-size: 100px;
         text-align: center;
-        color:white;
+        color: white;
         margin-top: 60px;
+        text-shadow: 0.05em 0.05em 0.05em dimgrey;
       }
-      .container2{
-        position:relative;
+      .container2 {
+        margin-top: 100px;
+        position: relative;
+        clear: left;
       }
-      .img{
-        float:right;
-        margin-right: 80px;
-        z-index: -1;
+      .img {
+        float: right;
+        padding-right: 80px;
+        z-index: -2;
         position: absolute;
-        right:0px;
+        right: 0px;
       }
-      .introduction{
+      .introduction {
         float: left;
         margin-left: 140px;
-        margin-top: 80px;
+        margin-top: 200px;
         font-size: 100px;
       }
-      .introduction h3{
+      .introduction h3 {
         font-size: 60px;
+        color: white;
+        text-shadow: 0.05em 0.05em 0.05em dimgrey;
+      }
+      .line {
+        width: 600px;
+        height: 20px;
+        background-color: #d6eaf8;
+        border-radius: 10px;
+        position: absolute;
+        margin-top: -24px;
+        z-index: -1;
+      }
+
+      .footer {
+        background-color: floralwhite;
+        margin: 0 auto;
+        position: relative;
+        bottom: 0px;
+        clear: left;
+      }
+      .footer ul li a {
+        color: grey;
+        text-decoration: none;
+        font-size: 18px;
+      }
+      footer {
+        padding-top:1000px;
+        display: block;
+        width: 1400px;
+        height: 100px;
+        clear:left;
       }
     </style>
   </head>
@@ -112,6 +157,13 @@
   <body>
     <div class="header">
       <div class="container">
+        <div class="logo">
+          <img
+            src="./img/808990_chief_cook_food_kitchen_icon.svg"
+            width="4%"
+            alt=""
+          />
+        </div>
         <ul class="nav">
           <li class="nav-item"><a href="" class="nav-link">文學</a></li>
           <li class="nav-item"><a href="" class="nav-link">攝影</a></li>
@@ -147,6 +199,7 @@
               <p class="card-text">ss</p>
             </div>
           </div>
+
           <div class="col-md-4">
             <div class="card">
               <img
@@ -163,14 +216,33 @@
     </div>
 
     <div class="content2">
-
-        <h2>About Us</h2>
-<div class="container2">
-  <div class="introduction"><h3>hello,we all love cooking</h3></div>
-  <div class="img"><img src="./img/pexels-shvets-production-7525159.jpg" alt=""></div>
-</div>
+      <h2>About Us</h2>
+      <div class="container2">
+        <div class="introduction">
+          <h3>hello,we all love cooking</h3>
+          <div class="line"></div>
+        </div>
+        <div class="img">
+          <img
+            src="./img/pexels-shvets-production-7525159.jpg"
+            width="90%"
+            alt=""
+          />
+        </div>
       </div>
     </div>
-    <footer></footer>
+
+    <footer>
+      <div class="container">
+        <div class="footer">
+          <ul>
+            <li><a href="#">品牌理念</a></li>
+            <li><a href="#">dd</a></li>
+            <li><a href="#">聯絡我們</a></li>
+            <p>copyright</p>
+          </ul>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
