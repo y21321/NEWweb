@@ -41,6 +41,15 @@
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
+        display: flex;
+        flex-direction: column;
+      }
+      h2 {
+        font-size: 100px;
+        text-align: center;
+        color: white;
+        margin-top: 60px;
+        text-shadow: 0.05em 0.05em 0.05em dimgrey;
       }
 
       .nav {
@@ -86,19 +95,14 @@
       .row {
         margin-top: 40px;
       }
+
       .card-title {
         padding: 15px 15px 0px 15px;
       }
       .card-text {
         padding: 0px 15px 10px 15px;
       }
-      h2 {
-        font-size: 100px;
-        text-align: center;
-        color: white;
-        margin-top: 60px;
-        text-shadow: 0.05em 0.05em 0.05em dimgrey;
-      }
+
       .container2 {
         margin-top: 100px;
         position: relative;
@@ -106,7 +110,7 @@
       }
       .img {
         float: right;
-        padding-right: 80px;
+        padding-right: 0px;
         z-index: -2;
         position: absolute;
         right: 0px;
@@ -133,23 +137,20 @@
       }
 
       .footer {
+        width: 110%;
         background-color: floralwhite;
-        margin: 0 auto;
-        position: relative;
-        bottom: 0px;
-        clear: left;
+        padding-bottom: 20px;
+        margin-top: auto;
       }
+
+
       .footer ul li a {
         color: grey;
         text-decoration: none;
         font-size: 18px;
       }
-      footer {
-        padding-top:1000px;
-        display: block;
-        width: 1400px;
-        height: 100px;
-        clear:left;
+      .footer ul li a:hover {
+        color: #4e92c2;
       }
     </style>
   </head>
@@ -233,16 +234,14 @@
     </div>
 
     <footer>
-      <div class="container">
         <div class="footer">
-          <ul>
-            <li><a href="#">品牌理念</a></li>
+          <ul> 
+            <li ><a href="#">品牌理念</a></li>
             <li><a href="#">dd</a></li>
             <li><a href="#">聯絡我們</a></li>
             <p>copyright</p>
           </ul>
         </div>
-      </div>
     </footer>
   </body>
 </html>
